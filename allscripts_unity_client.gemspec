@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   gem.files = Dir['lib/**/*']
 
   gem.add_dependency 'httpclient', '~> 2.8'
-  gem.add_dependency 'activesupport', '>= 4', '< 5.0'
+  gem.add_dependency 'activesupport', '>= 4'
   gem.add_dependency 'nokogiri', '>= 1.4.0'
   gem.add_dependency 'nori', '~> 2.6.0'
   gem.add_dependency 'american_date', '~> 1.1.0'
